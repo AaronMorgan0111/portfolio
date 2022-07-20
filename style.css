@@ -1,6 +1,30 @@
 h1 {
-    color: #FFD400;
+    color: red;
 }
 h2 {
     font-weight: 100;
+}
+
+h2 {
+    color: hotpink;
+}
+
+.about-me > p {
+    color: green;
+};
+
+.about-me h3 {
+    color: yellow;
+};
+
+#box {
+    outline: 3px solid green;
+  }
+
+  #box:checked + label {
+    color: green;
+  }
+
+  #box:hover + label {
+    outline: 3px solid red
 }
