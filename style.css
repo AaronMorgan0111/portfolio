@@ -4,27 +4,59 @@ h1 {
 h2 {
     font-weight: 100;
 }
-
 h2 {
     color: hotpink;
 }
-
 .about-me > p {
     color: green;
-};
-
+}
+.about-me2 {
+    color: saddlebrown;
+}
 .about-me h3 {
     color: yellow;
-};
-
+}
 #box {
     outline: 3px solid green;
   }
-
-  #box:checked + label {
+#box:checked + label {
     color: green;
   }
-
-  #box:hover + label {
+#box:hover + label {
     outline: 3px solid red
+}
+p::first-line {
+    color: green;
+}
+#hardworkerpc {
+    aspect-ratio: 1/1;
+    height: 300px;
+    position: relative;
+    right: 40px;
+}
+#profile-pic {
+    aspect-ratio: 1/1;
+    height: 300px;
+    position: relative;
+}
+#cyclist {
+    aspect-ratio: 1/1;
+    height: 300px;
+    position: relative;
+}
+#gaming {
+    aspect-ratio: 1/1;
+    height: 300px;
+    position: relative;
+}
+#running {
+    aspect-ratio: 1/1;
+    height: 300px;
+    position: relative;
+}
+body {
+    background-color: lightgrey;
+}
+a [data-anchor="social"] {
+    color: blue;
 }
